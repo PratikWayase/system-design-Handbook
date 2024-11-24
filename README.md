@@ -18,3 +18,7 @@ Scalability: You can easily add new features (nodes) to the network or applicati
 Traffic Congestion: When many clients send requests at once, the server can become overloaded.
 Server Downtime: If the server is down, client requests cannot be fulfilled.
 Resource Availability: Sometimes, resources exist on the server but are not available on the client.
+
+## Microservice Architecture
+
+Microservices perform specific business functions. Each microservice can be developed, deployed, and scaled independently. They can be written in various programming languages and frameworks, functioning as self-contained mini-applications.
