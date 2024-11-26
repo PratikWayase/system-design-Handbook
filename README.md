@@ -1,11 +1,11 @@
 # system-design-Handbook
 
-# Client-Server Architecture
+## Client-Server Architecture
 
-## Client:
+### Client:
 For example, your phone acts as the client. When you search for something on YouTube or a web browser and click on it, this sends a request to the server.
 
-## Server:
+### Server:
 The server is the system behind the application that processes incoming requests. It doesn't know what the client wants until it receives the request. Once the request arrives, the server responds accordingly.
 
 ## Advantages of Client-Server Networks:
@@ -32,4 +32,4 @@ Wallet Microservice
 Notification Microservice
 Reward and Cashback Microservice
 Merchant Management Microservice
-Customer Support Microservice:
+Customer Support Microservice
