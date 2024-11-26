@@ -22,3 +22,14 @@ Resource Availability: Sometimes, resources exist on the server but are not avai
 ## Microservice Architecture
 
 Microservices perform specific business functions. Each microservice can be developed, deployed, and scaled independently. They can be written in various programming languages and frameworks, functioning as self-contained mini-applications.
+
+
+## example ( payment app )
+User authentication and authorization
+Payment Gateway Microservice
+Transaction Management Microservice
+Wallet Microservice:
+Notification Microservice:
+Reward and Cashback Microservice
+Merchant Management Microservice
+Customer Support Microservice:
