@@ -25,11 +25,17 @@ Microservices perform specific business functions. Each microservice can be deve
 
 
 ### example ( payment app )
+
 User authentication and authorization
+
 Payment Gateway Microservice
+
 Transaction Management Microservice
+
 Wallet Microservice
+
 Notification Microservice
+
 Reward and Cashback Microservice
 Merchant Management Microservice
 Customer Support Microservice
