@@ -43,6 +43,10 @@ Merchant Management Microservice
 Customer Support Microservice
 
 
-How Do Microservices Work?
+#### How Microservices Work?
 
 Service Interaction: Microservices interact via APIs, facilitating standardized information exchange and integration.
+
+Feature-Oriented Design: Applications are divided into specific features, such as user authentication or product management, allowing for specialized and focused development.
+
+Technology Agnosticism: Different technologies can be used for each service, enabling teams to choose the best tools for their specific needs.
