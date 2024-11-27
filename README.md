@@ -50,3 +50,30 @@ Service Interaction: Microservices interact via APIs, facilitating standardized 
 Feature-Oriented Design: Applications are divided into specific features, such as user authentication or product management, allowing for specialized and focused development.
 
 Technology Agnosticism: Different technologies can be used for each service, enabling teams to choose the best tools for their specific needs.
+
+
+### Main Components of Microservices Architecture
+
+#### Microservices:
+
+Represent specific business functions or features, each focusing on a distinct capability.
+
+#### API Gateway:
+
+Manages requests, handles authentication, and routes requests to the appropriate microservices.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
