@@ -41,3 +41,8 @@ Reward and Cashback Microservice
 Merchant Management Microservice
 
 Customer Support Microservice
+
+
+How Do Microservices Work?
+
+Service Interaction: Microservices interact via APIs, facilitating standardized information exchange and integration.
