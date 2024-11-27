@@ -62,6 +62,14 @@ Represent specific business functions or features, each focusing on a distinct c
 
 Manages requests, handles authentication, and routes requests to the appropriate microservices.
 
+#### Service Registry:
+
+Tracks the addresses of all microservices, enabling dynamic discovery and communication among services.
+
+#### Load Balancer:
+
+Distributes incoming traffic across multiple services to prevent any single microservice from being overwhelmed.
+
 
 
 
