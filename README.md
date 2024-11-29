@@ -105,7 +105,21 @@ Easier to adopt new technologies for specific services.
 
 Easier maintenance of smaller, focused codebases.
 
+### monlithic 
 
+Single, tightly integrated codebase.
+
+Larger, centralized development team.
+
+Scaling involves replicating the entire application.
+
+The whole application is deployed as a single unit.
+
+Resources are allocated based on the overall application’s needs.
+
+Limited flexibility due to a common technology stack.
+
+Maintenance can be complex for a large, monolithic codebase.
 
 
 
