@@ -87,7 +87,7 @@ Frequently accessed data is stored in a cache close to the microservice, improvi
 #### Fault Tolerance:
 Ensures the system maintains overall functionality even when individual services fail.
 
-
+## microserivce vs monlithic 
 
 
 
