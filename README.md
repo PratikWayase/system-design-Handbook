@@ -84,9 +84,8 @@ Each microservice typically has its own database, promoting data autonomy and al
 #### Caching:
 Frequently accessed data is stored in a cache close to the microservice, improving performance by reducing repetitive queries.
 
-
-
-
+#### Fault Tolerance:
+Ensures the system maintains overall functionality even when individual services fail.
 
 
 
