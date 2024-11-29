@@ -125,3 +125,7 @@ Maintenance can be complex for a large, monolithic codebase.
 
 
 
+[system-design.pdf](https://github.com/user-attachments/files/17960505/system-design.pdf)
+
+
+
