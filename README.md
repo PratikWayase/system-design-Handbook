@@ -89,6 +89,21 @@ Ensures the system maintains overall functionality even when individual services
 
 ## microserivce vs monlithic 
 
+### microserivce
+
+Decomposed into small, independent services.
+
+Small, cross-functional teams for each microservice.
+
+Independent scaling of individual services.
+
+Independent deployment of services.
+
+Faster development and deployment cycles.
+
+Easier to adopt new technologies for specific services.
+
+Easier maintenance of smaller, focused codebases.
 
 
 
