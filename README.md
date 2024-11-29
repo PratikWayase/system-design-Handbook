@@ -70,9 +70,13 @@ Tracks the addresses of all microservices, enabling dynamic discovery and commun
 
 Distributes incoming traffic across multiple services to prevent any single microservice from being overwhelmed.
 
+#### containerization:
 
+Tools like Docker encapsulate microservices and their dependencies.
+Orchestration tools like Kubernetes manage deployment, scaling, and monitoring.
 
-
+#### Message Broker:
+Facilitates communication between microservices, ensuring reliable message exchange.
 
 
 
