@@ -78,6 +78,12 @@ Orchestration tools like Kubernetes manage deployment, scaling, and monitoring.
 #### Message Broker:
 Facilitates communication between microservices, ensuring reliable message exchange.
 
+#### Database:
+Each microservice typically has its own database, promoting data autonomy and allowing for independent management and scaling.
+
+#### Caching:
+Frequently accessed data is stored in a cache close to the microservice, improving performance by reducing repetitive queries.
+
 
 
 
