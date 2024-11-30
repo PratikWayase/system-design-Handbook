@@ -125,14 +125,16 @@ Maintenance can be complex for a large, monolithic codebase.
 
 #### How to move from monolithic to microservices?
 
-1)Identify Components :-
+
+1) ###### Identify Components :-
 
 Analyze the monolithic application to identify its components.
 
 Determine which parts can be transitioned into independent microservices.
 
 
-2) Break Down Business Functions:-
+
+2) ##### Break Down Business Functions:-
 
 Decompose the monolith into specific business functions, such as user management, payment processing, or notifications.
 
