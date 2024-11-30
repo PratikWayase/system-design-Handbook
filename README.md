@@ -123,6 +123,48 @@ Limited flexibility due to a common technology stack.
 
 Maintenance can be complex for a large, monolithic codebase.
 
+#### How to move from monolithic to microservices?
+
+1)Identify Components :-
+Analyze the monolithic application to identify its components.
+Determine which parts can be transitioned into independent microservices.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ![system-design_page-0001 (1)](https://github.com/user-attachments/assets/2619371b-b8ea-4521-9cc6-ef24b106de21)
