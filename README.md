@@ -126,7 +126,7 @@ Maintenance can be complex for a large, monolithic codebase.
 #### How to move from monolithic to microservices?
 
 
-1) ###### Identify Components :-
+1) ##### Identify Components :-
 
 Analyze the monolithic application to identify its components.
 
@@ -141,7 +141,18 @@ Decompose the monolith into specific business functions, such as user management
 Focus on separating areas with minimal dependencies first.
 
 
+3) ##### Implement the Strangler Pattern
 
+Gradually replace parts of the monolithic application with microservices.
+
+Route traffic to the new microservices while keeping the remaining monolith operational until full migration is complete.
+
+
+4) ##### Establish Clear APIs and Contracts
+
+Define well-documented and standardized APIs for each microservice.
+
+Ensure these APIs facilitate seamless communication between services.
 
 
 
