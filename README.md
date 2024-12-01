@@ -93,66 +93,66 @@ Ensures the system maintains overall functionality even when individual services
 
 ### microserivce
 
-Decomposed into small, independent services.
+- Decomposed into small, independent services.
 
-Small, cross-functional teams for each microservice.
+- Small,cross-functional teams for each microservice.
 
-Independent scaling of individual services.
+- Independent scaling of individual services.
 
-Independent deployment of services.
+- Independent deployment of services.
 
-Faster development and deployment cycles.
+- Faster development and deployment cycles.
 
-Easier to adopt new technologies for specific services.
+- Easier to adopt new technologies for specific services.
 
-Easier maintenance of smaller, focused codebases.
+- Easier maintenance of smaller, focused codebases.
 
 ### monlithic 
 
-Single, tightly integrated codebase.
+- Single, tightly integrated codebase.
 
-Larger, centralized development team.
+- Larger, centralized development team.
 
-Scaling involves replicating the entire application.
+- Scaling involves replicating the entire application.
 
-The whole application is deployed as a single unit.
+- The whole application is deployed as a single unit.
 
-Resources are allocated based on the overall application’s needs.
+- Resources are allocated based on the overall application’s needs.
 
-Limited flexibility due to a common technology stack.
+- Limited flexibility due to a common technology stack.
 
-Maintenance can be complex for a large, monolithic codebase.
+- Maintenance can be complex for a large, monolithic codebase.
 
 #### How to move from monolithic to microservices?
 
 
 1) ##### Identify Components :-
 
-Analyze the monolithic application to identify its components.
+- Analyze the monolithic application to identify its components.
 
-Determine which parts can be transitioned into independent microservices.
+- Determine which parts can be transitioned into independent microservices.
 
 
 
 2) ##### Break Down Business Functions:-
 
-Decompose the monolith into specific business functions, such as user management, payment processing, or notifications.
+- Decompose the monolith into specific business functions, such as user management, payment processing, or notifications.
 
-Focus on separating areas with minimal dependencies first.
+- Focus on separating areas with minimal dependencies first.
 
 
 3) ##### Implement the Strangler Pattern
 
-Gradually replace parts of the monolithic application with microservices.
+- Gradually replace parts of the monolithic application with microservices.
 
-Route traffic to the new microservices while keeping the remaining monolith operational until full migration is complete.
+- Route traffic to the new microservices while keeping the remaining monolith operational until full migration is complete.
 
 
 4) ##### Establish Clear APIs and Contracts
 
-Define well-documented and standardized APIs for each microservice.
+- Define well-documented and standardized APIs for each microservice.
 
-Ensure these APIs facilitate seamless communication between services.
+- Ensure these APIs facilitate seamless communication between services.
 
 5) ##### Create CI/CD Pipelines
 
