@@ -156,30 +156,30 @@ Ensures the system maintains overall functionality even when individual services
 
 5) ##### Create CI/CD Pipelines
 
-Set up continuous integration and continuous deployment pipelines.
+- Set up continuous integration and continuous deployment pipelines.
 
-Automate testing and deployment processes to enable faster and more reliable releases.
+- Automate testing and deployment processes to enable faster and more reliable releases.
 
 
 6) ##### Introduce Service Discovery
 
-Implement mechanisms for dynamic service discovery, allowing microservices to locate and communicate with each other.
+- Implement mechanisms for dynamic service discovery, allowing microservices to locate and communicate with each other.
 
-Use tools like Consul, Eureka, or Kubernetes for service discovery.
+- Use tools like Consul, Eureka, or Kubernetes for service discovery.
 
 
 7) ##### Manage Cross-Cutting Concerns
 
-Ensure consistent handling of security, authentication, logging, monitoring, and other cross-cutting concerns across all microservices.
+- Ensure consistent handling of security, authentication, logging, monitoring, and other cross-cutting concerns across all microservices.
 
-Use shared libraries or middleware to standardize these practices.
+- Use shared libraries or middleware to standardize these practices.
 
 
 8) ##### Take an Iterative Approach
 
-Start small and expand gradually.
+- Start small and expand gradually.
 
-Continuously refine and improve your microservices architecture based on feedback, performance metrics, and changing business requirements.
+- Continuously refine and improve your microservices architecture based on feedback, performance metrics, and changing business requirements.
 
 
 
