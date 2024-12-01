@@ -154,6 +154,19 @@ Define well-documented and standardized APIs for each microservice.
 
 Ensure these APIs facilitate seamless communication between services.
 
+5) ##### Create CI/CD Pipelines
+
+Set up continuous integration and continuous deployment pipelines.
+
+Automate testing and deployment processes to enable faster and more reliable releases.
+
+
+6) ##### Introduce Service Discovery
+
+Implement mechanisms for dynamic service discovery, allowing microservices to locate and communicate with each other.
+
+Use tools like Consul, Eureka, or Kubernetes for service discovery.
+
 
 
 
