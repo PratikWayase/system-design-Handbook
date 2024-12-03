@@ -1,5 +1,9 @@
 # system-design-Handbook
 
+## CAP Theorem 
+(Consistency, Availability, Partition Tolerance)
+
+The CAP theorem states that a distributed database system can only guarantee two out of the following three properties at a given time:
 
 
 ## Client-Server Architecture
