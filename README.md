@@ -182,6 +182,14 @@ Ensures the system maintains overall functionality even when individual services
 - Continuously refine and improve your microservices architecture based on feedback, performance metrics, and changing business requirements.
 
 
+## Design Patterns of Microservices
+
+### API Gateway Pattern
+
+The API Gateway serves as a single point of entry for all client requests and provides several essential functions. 
+It simplifies communication between clients (e.g., devices or applications) and the underlying microservices by hiding the complexities of multiple services behind a unified interface. Additionally, it handles tasks like authentication, logging, and rate limiting, making it a crucial component of microservices architecture.
+
+
 
 
 
