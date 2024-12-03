@@ -189,6 +189,16 @@ Ensures the system maintains overall functionality even when individual services
 The API Gateway serves as a single point of entry for all client requests and provides several essential functions. 
 It simplifies communication between clients (e.g., devices or applications) and the underlying microservices by hiding the complexities of multiple services behind a unified interface. Additionally, it handles tasks like authentication, logging, and rate limiting, making it a crucial component of microservices architecture.
 
+#### Characteristics of an API Gateway
+
+##### Routing and Load Balancing:
+
+An API Gateway distributes incoming requests across multiple service instances, enabling load balancing. This ensures high reliability and scalability.
+
+##### Protocol Translation:
+
+It can convert HTTP request messages into other formats (e.g., gRPC) to communicate with backend services that use different protocols.
+
 
 
 
