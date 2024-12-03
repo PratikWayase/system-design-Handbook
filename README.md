@@ -199,6 +199,13 @@ An API Gateway distributes incoming requests across multiple service instances, 
 
 It can convert HTTP request messages into other formats (e.g., gRPC) to communicate with backend services that use different protocols.
 
+##### Request Transformation:
+
+API Gateways can transform requests and responses according to the specific requirements of the backend services.
+
+##### Caching:
+
+By caching frequently accessed data, API Gateways can reduce latency and improve response times. Stored data can be retrieved and served to clients without hitting the backend services repeatedly.
 
 
 
