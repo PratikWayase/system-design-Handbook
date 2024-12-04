@@ -236,7 +236,10 @@ Improves performance by reducing the load on backend services through effective 
 ##### Improved Security:
 Provides an additional layer of security by enforcing authentication, authorization, and rate limiting at the gateway level.
 
+### API Gateway Patterns 
 
+#### 1) Gateway Aggregation
+The practice of combining or consolidating multiple APIs into a single interface or endpoint.
 
 
 
