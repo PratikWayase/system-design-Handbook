@@ -241,6 +241,16 @@ Provides an additional layer of security by enforcing authentication, authorizat
 #### 1) Gateway Aggregation
 The practice of combining or consolidating multiple APIs into a single interface or endpoint.
 
+Example:
+Imagine you want to buy shoes from Nike. To integrate various functionalities like:
+
+- New product listings
+- Payment processing
+Order tracking
+User authentication
+
+You can aggregate APIs from different providers (e.g., Product Catalog API, Payment Gateway API, Shipping and Logistics API, and User Authentication API) into a single interface within your e-commerce platform.
+
 
 
 
