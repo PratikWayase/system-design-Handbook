@@ -246,8 +246,8 @@ Imagine you want to buy shoes from Nike. To integrate various functionalities li
 
 - New product listings
 - Payment processing
-Order tracking
-User authentication
+- Order tracking
+- User authentication
 
 You can aggregate APIs from different providers (e.g., Product Catalog API, Payment Gateway API, Shipping and Logistics API, and User Authentication API) into a single interface within your e-commerce platform.
 
