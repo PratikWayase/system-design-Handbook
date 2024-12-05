@@ -40,6 +40,8 @@ on other hand consistency in ACID  properties in any database, consistency refer
 
 
 
+#
+
 
 ## Client-Server Architecture
 
