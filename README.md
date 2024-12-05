@@ -27,7 +27,16 @@ thats why Partition Tolerance is mandatory for a distributed system to be reliab
 now partition Tolerance is essential, in the event of a network partition or failure , the system must choose between: Consistency  & Availability
 
 Consistency (C): Ensuring that all nodes have up-to-date, uniform data, even if it means some requests might fail.
+
 Availability (A): Ensuring that every request is served, even if the data served is not the latest.
+
+but right now consistancy also used in ACID properties so how it differ from cap ?
+
+so in cap theoram consistency => uniformity It ensures that all clients see the most recent state of the system (after a write operation has completed) or indicate an error if the state is not up to date.
+
+on other hand consistency in ACID  properties in any database, consistency refers to the correctness of the database state after a each action is executed.
+
+
 
 
 
