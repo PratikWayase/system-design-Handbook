@@ -98,6 +98,9 @@ Feature-Oriented Design: Applications are divided into specific features, such a
 Technology Agnosticism: Different technologies can be used for each service, enabling teams to choose the best tools for their specific needs.
 
 
+
+#
+
 ### Main Components of Microservices Architecture
 
 #### Microservices:
