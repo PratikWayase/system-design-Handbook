@@ -14,6 +14,9 @@ Every request (read or write) receives a response, even if it might not reflect 
 - ##### Partition Tolerance (P)
 The system continues to operate even if network partitions (communication breakdowns) occur between nodes.
 
+
+#
+
 #### Key Insights on CAP Theorem in Databases
 
 ##### Partition Tolerance Is Mandatory ? ( BACK UP )
