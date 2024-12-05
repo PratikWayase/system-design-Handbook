@@ -170,6 +170,9 @@ Ensures the system maintains overall functionality even when individual services
 
 - Maintenance can be complex for a large, monolithic codebase.
 
+
+
+
 #### How to move from monolithic to microservices?
 
 
@@ -227,6 +230,7 @@ Ensures the system maintains overall functionality even when individual services
 - Start small and expand gradually.
 
 - Continuously refine and improve your microservices architecture based on feedback, performance metrics, and changing business requirements.
+
 
 
 ## Design Patterns of Microservices
