@@ -14,6 +14,15 @@ Every request (read or write) receives a response, even if it might not reflect 
 - ##### Partition Tolerance (P)
 The system continues to operate even if network partitions (communication breakdowns) occur between nodes.
 
+#### Key Insights on CAP Theorem in Databases
+
+Partition Tolerance Is Mandatory ? ( BACK UP )
+Imagine a distributed system as a network of computers working together. Sometimes, parts of this network might get disconnected, like a power outage affecting a few computers. This is called a network partition.
+
+A reliable distributed system must be able to function correctly even when such partitions happen. This means it needs to be Partition Tolerant. It's like having a backup plan in case of a power outage – the system keeps working, even if some parts are down.
+
+thats why Partition Tolerance is mandatory for a distributed system to be reliable.
+
 
 ## Client-Server Architecture
 
