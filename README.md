@@ -41,6 +41,9 @@ on other hand consistency in ACID  properties in any database, consistency refer
 
 
 
+### Consistency & partition tolerance
+when a value is written to one node, the value will be updated in all the other nodes. 
+ CP systems may compromise on availability that means some data might not be accessible in the event of a network partition.
 
 
 #
