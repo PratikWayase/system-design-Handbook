@@ -46,6 +46,15 @@ when a value is written to one node, the value will be updated in all the other 
  CP systems may compromise on availability that means some data might not be accessible in the event of a network partition.
 
 
+ Consistency & availability
+prioritize a constant view of the data and ensure the availability is high under normal operating conditions. 
+This means that every request made in the system must return either a successful or a failed response.
+
+
+Availability & partition tolerance
+aims to process queries and provide the most recent available version of information, even if it cannot ensure it is completely up-to-date due to network partitioning
+
+
 #
 
 
