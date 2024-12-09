@@ -55,6 +55,13 @@ This means that every request made in the system must return either a successful
 aims to process queries and provide the most recent available version of information, 
 even if it cannot ensure it is completely up-to-date due to network partitioning
 
+ Performance vs Scalability
+ 
+Performance 
+
+how well a system executes tasks or processes within a given timeframe. 
+It encompasses factors like speed, responsiveness, throughput, and resource utilization.
+
 
 #
 
