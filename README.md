@@ -63,6 +63,14 @@ how well a system executes tasks or processes within a given timeframe.
 It encompasses factors like speed, responsiveness, throughput, and resource utilization.
 
 
+#### Performance Optimization Techniques:
+
+1. Code optimization is best for algorithm-heavy applications because it reduces execution time and minimizes resource consumption.
+    However, the downside is that it makes the code more complex and increases development time.
+   
+
+
+
 #
 
 
