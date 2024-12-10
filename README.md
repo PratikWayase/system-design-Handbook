@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/7dfe33f4-f98c-47c8-958f-aff546fe70e7)# system-design-Handbook
+# system-design-Handbook
 
 ## CAP Theorem 
 (Consistency, Availability, Partition Tolerance)
