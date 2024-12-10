@@ -1,4 +1,4 @@
-# system-design-Handbook
+![image](https://github.com/user-attachments/assets/7dfe33f4-f98c-47c8-958f-aff546fe70e7)# system-design-Handbook
 
 ## CAP Theorem 
 (Consistency, Availability, Partition Tolerance)
@@ -67,6 +67,11 @@ It encompasses factors like speed, responsiveness, throughput, and resource util
 
 1. Code optimization is best for algorithm-heavy applications because it reduces execution time and minimizes resource consumption.
     However, the downside is that it makes the code more complex and increases development time.
+   
+
+3. Caching means storing frequently used data in memory for quick access. It helps decrease the load on the backend and reduces query response time.
+   However, it requires additional memory and also increases system complexity
+  
    
 
 
