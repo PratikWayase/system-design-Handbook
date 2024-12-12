@@ -80,6 +80,11 @@ It encompasses factors like speed, responsiveness, throughput, and resource util
 5 Database Optimization Improving database performance through smart design and querying to enhance data retrieval speed and reduce database load.
 but increase schema complexity, needing periodic maintenance.
 
+6 Multi-level Caching significantly reduce latency and improve user experience by reducing backend load.
+
+7 Resource Pooling reusing resources instead of creating new ones each time
+ reduce creation overhead and improve system efficiency by managing resource consumption.
+
 
    
 
