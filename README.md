@@ -77,7 +77,8 @@ It encompasses factors like speed, responsiveness, throughput, and resource util
 
 4 Parallelism and Concurrency running multiple tasks simultaneously to utilize multiple CPU cores and reduce processing time.
 
-5 Database Optimization
+5 Database Optimization Improving database performance through smart design and querying to enhance data retrieval speed and reduce database load.
+but increase schema complexity, needing periodic maintenance.
 
 
    
