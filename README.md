@@ -75,15 +75,27 @@ It encompasses factors like speed, responsiveness, throughput, and resource util
 3. Load balancing spreads work evenly across multiple servers. It helps prevent server overload and improves system reliability.
    However, a disadvantage is that it can be expensive to implement and adds network complexity.
 
-4 Parallelism and Concurrency running multiple tasks simultaneously to utilize multiple CPU cores and reduce processing time.
+4. Parallelism and Concurrency running multiple tasks simultaneously to utilize multiple CPU cores and reduce processing time.
 
-5 Database Optimization Improving database performance through smart design and querying to enhance data retrieval speed and reduce database load.
+5. Database Optimization Improving database performance through smart design and querying to enhance data retrieval speed and reduce database load.
 but increase schema complexity, needing periodic maintenance.
 
-6 Multi-level Caching significantly reduce latency and improve user experience by reducing backend load.
+6. Multi-level Caching significantly reduce latency and improve user experience by reducing backend load.
 
-7 Resource Pooling reusing resources instead of creating new ones each time
+7. Resource Pooling reusing resources instead of creating new ones each time
  reduce creation overhead and improve system efficiency by managing resource consumption.
+
+
+ 
+Which Technique is Best for Which Situation?
+
+1. Small, computational app → Code Optimization
+2. Content-heavy website → Multi-level Caching
+3. High-traffic platform → Load Balancing
+4. Data processing task → Parallelism
+5. Large database system → Database Optimization
+6. Resource-intensive application → Resource Pooling
+
 
 
    
