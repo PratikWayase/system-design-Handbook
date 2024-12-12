@@ -69,11 +69,15 @@ It encompasses factors like speed, responsiveness, throughput, and resource util
     However, the downside is that it makes the code more complex and increases development time.
    
 
-3. Caching means storing frequently used data in memory for quick access. It helps decrease the load on the backend and reduces query response time.
+2. Caching means storing frequently used data in memory for quick access. It helps decrease the load on the backend and reduces query response time.
    However, it requires additional memory and also increases system complexity
 
 3. Load balancing spreads work evenly across multiple servers. It helps prevent server overload and improves system reliability.
    However, a disadvantage is that it can be expensive to implement and adds network complexity.
+
+4 Parallelism and Concurrency running multiple tasks simultaneously to utilize multiple CPU cores and reduce processing time.
+
+5 Database Optimization
 
 
    
