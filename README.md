@@ -71,7 +71,11 @@ It encompasses factors like speed, responsiveness, throughput, and resource util
 
 3. Caching means storing frequently used data in memory for quick access. It helps decrease the load on the backend and reduces query response time.
    However, it requires additional memory and also increases system complexity
-  
+
+3. Load balancing spreads work evenly across multiple servers. It helps prevent server overload and improves system reliability.
+   However, a disadvantage is that it can be expensive to implement and adds network complexity.
+
+
    
 
 
