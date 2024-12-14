@@ -140,7 +140,8 @@ Three Nines (99.9%): Only 8 hours of downtime per year, making the system far mo
 
 Four Nines (99.99%): Downtime is reduced to less than an hour per year (52 minutes).
 
-Five Nines (99.999%): Extremely reliable with only 5 minutes of downtime annually.
+Five Nines (99.999%): Extremely reliable with only 5 minutes of downtime annually.  #
+ example : trading platforms, banking systems hospital monitoring systems
 
 Six Nines (99.9999%): Near-perfect availability with a mere 32 seconds per year.
 
