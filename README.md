@@ -87,7 +87,7 @@ but increase schema complexity, needing periodic maintenance.
 
 
  
-Which Technique is Best for Which Situation?
+#### Which Technique is Best for Which Situation?
 
 1. Small, computational app → Code Optimization
 2. Content-heavy website → Multi-level Caching
@@ -100,8 +100,14 @@ Which Technique is Best for Which Situation?
 ### Scalability:
  system's ability to handle increasing amounts of work or users without compromising performance.
 
-example to choose between performance & scalability
+- example to choose between performance & scalability
+
  Imagine you're building a website. You need to decide whether to focus on making it super fast (performance) or able to handle many visitors at once (scalability).
+ 
+ consider e-commerce startup ( grocery delivery app ) might initially prioritize performance to provide a smooth shopping experience for its customers. 
+ As the business grows and attracts more visitors, they may need to shift their focus towards scalability to handle increased traffic and prevent website crashes.
+
+
 
 - Fast Website: If you need your website to load quickly for every visitor, prioritize performance.
   For example, a news website with breaking news would benefit from fast load times.
