@@ -121,8 +121,14 @@ but increase schema complexity, needing periodic maintenance.
 Find the Right Balance: Aim for a solution that meets your needs without sacrificing too much on either side.
  
 
-   
 
+
+
+## System availability in Numbers 
+
+Availability: The percentage of time a system or service is operational.
+Downtime: The time when a system is unavailable or not functioning.
+![availabel](https://github.com/user-attachments/assets/eddd432b-e0f0-497d-8661-efc507514dde)
 
 
 #
