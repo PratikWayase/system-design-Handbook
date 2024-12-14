@@ -108,6 +108,11 @@ example to choose between performance & scalability
  
 - Many Visitors: If you expect a lot of traffic, like a popular online store during a sale, scalability is crucial. 
  The website should be able to handle a sudden surge in visitors without crashing.
+
+#### trade off
+
+Performance vs. Scalability: Sometimes, improving performance can make it harder to scale
+Find the Right Balance: Aim for a solution that meets your needs without sacrificing too much on either side.
  
 
    
