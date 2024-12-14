@@ -100,6 +100,10 @@ Which Technique is Best for Which Situation?
 ### Scalability:
  system's ability to handle increasing amounts of work or users without compromising performance.
 
+example to choose between performance & scalability
+ Imagine you're building a website. You need to decide whether to focus on making it super fast (performance) or able to handle many visitors at once (scalability).
+ 
+
    
 
 
