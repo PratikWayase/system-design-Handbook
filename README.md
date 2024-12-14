@@ -127,8 +127,25 @@ Find the Right Balance: Aim for a solution that meets your needs without sacrifi
 ## System availability in Numbers 
 
 Availability: The percentage of time a system or service is operational.
+
 Downtime: The time when a system is unavailable or not functioning.
+
 ![availabel](https://github.com/user-attachments/assets/eddd432b-e0f0-497d-8661-efc507514dde)
+
+One Nine (90%): The system is operational 90% of the time, resulting in significant downtime (36.5 days/year).
+
+Two Nines (99%): System downtime drops to 3.65 days annually, improving reliability.
+
+Three Nines (99.9%): Only 8 hours of downtime per year, making the system far more reliable.
+
+Four Nines (99.99%): Downtime is reduced to less than an hour per year (52 minutes).
+
+Five Nines (99.999%): Extremely reliable with only 5 minutes of downtime annually.
+
+Six Nines (99.9999%): Near-perfect availability with a mere 32 seconds per year.
+
+
+
 
 
 #
