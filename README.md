@@ -102,6 +102,12 @@ Which Technique is Best for Which Situation?
 
 example to choose between performance & scalability
  Imagine you're building a website. You need to decide whether to focus on making it super fast (performance) or able to handle many visitors at once (scalability).
+
+- Fast Website: If you need your website to load quickly for every visitor, prioritize performance.
+  For example, a news website with breaking news would benefit from fast load times.
+ 
+- Many Visitors: If you expect a lot of traffic, like a popular online store during a sale, scalability is crucial. 
+ The website should be able to handle a sudden surge in visitors without crashing.
  
 
    
