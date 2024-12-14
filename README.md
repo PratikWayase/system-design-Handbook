@@ -97,6 +97,8 @@ Which Technique is Best for Which Situation?
 6. Resource-intensive application → Resource Pooling
 
 
+### Scalability:
+ system's ability to handle increasing amounts of work or users without compromising performance.
 
    
 
