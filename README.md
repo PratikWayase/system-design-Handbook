@@ -132,9 +132,18 @@ Find the Right Balance: Aim for a solution that meets your needs without sacrifi
 - Importance: Critical for real-time applications like online meeting apps.
 - Example: The time it takes for a website to load after you click a link.
 
-throughput 
+  
 
-repesent How much data is been transferred over a network in a period of time.
+### throughput 
+
+- repesent How much data is been transferred over a network in a period of time.
+- Measuring Unit: Bits per second (bps), Megabits per second (Mbps).
+- Represents: How much data is being transferred over a network in a period of time.
+- Affecting Factors: Network bandwidth, congestion, packet loss, network topology.
+- Impact on performance: Low throughput can lead to slow and inefficient data transfer (e.g., slow file downloads).
+- Measure: Throughput is a measure of data transfer.
+- Importance: Important for data-intensive applications like file transfer apps.
+- Example: The amount of data (in Mbps) that can be downloaded per second from a server.
 
 
 
