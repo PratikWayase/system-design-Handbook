@@ -119,9 +119,18 @@ but increase schema complexity, needing periodic maintenance.
  Sometimes, improving performance can make it harder to scale
 
 Find the Right Balance: Aim for a solution that meets your needs without sacrificing too much on either side.
+
+#
  
 ###  Latency
  it represents  time delay between a request and a response.
+- Measuring Unit: Millisecond (ms).
+- Represents: How quickly a single request is processed.
+- Affecting Factors: Network distance, congestion, processing delays.
+- Impact on performance: High latency can lead to a slow and interrupted network experience (e.g., lag in video calls).
+- Measure: Latency is a measure of time.
+- Importance: Critical for real-time applications like online meeting apps.
+- Example: The time it takes for a website to load after you click a link.
 
 throughput 
 
