@@ -120,7 +120,12 @@ but increase schema complexity, needing periodic maintenance.
 
 Find the Right Balance: Aim for a solution that meets your needs without sacrificing too much on either side.
  
+###  Latency
+ it represents  time delay between a request and a response.
 
+throughput 
+
+repesent How much data is been transferred over a network in a period of time.
 
 
 
