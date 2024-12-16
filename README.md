@@ -171,6 +171,27 @@ Hardware upgrades
 
 A distributed system replicates data across multiple servers to achieve improved fault tolerance, scalability, and reliability. Consistency refers to a set of techniques for data storage and management in a distributed system, which can impact the scalability and reliability of the system
 
+### Strong Consistency (Data Uniformity)
+
+Strong consistency is a consistency model in distributed systems that ensures when a write operation is performed on one server, all subsequent read operations on any other server will immediately return the most recently written data.
+
+- Example: Instagram Post
+
+Consider an example with an Instagram post. When a user creates a post on one server, the data is instantly and synchronously replicated to all other servers. Any user attempting to view the post on a different server will see the exact same, most up-to-date version of the post.
+
+- workflow to achieve strong consistency in data replication :
+
+ - The client (or server) executes a write operation against the primary database instance.
+ - The primary instance propagates the written data to the replica instances.
+ - The replica instances send an acknowledgment signal to the primary instance.
+ - The primary instance sends an acknowledgment signal to the client.
+
+- Use Cases:
+
+File Systems
+Relational Databases
+Financial Services (trading platform,banking)
+
 
 
 ## System availability in Numbers 
