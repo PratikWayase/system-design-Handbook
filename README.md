@@ -132,6 +132,21 @@ Find the Right Balance: Aim for a solution that meets your needs without sacrifi
 - Importance: Critical for real-time applications like online meeting apps.
 - Example: The time it takes for a website to load after you click a link.
 
+#### Latency Types
+
+- Network Latency
+Time for data to travel network infrastructure
+
+- Processing Latency
+Time taken by devices to process incoming data
+
+- Transmission Latency
+Time to push data onto the network medium
+
+- Propagation Latency
+Physical time signal takes to travel
+
+
   
 
 ### throughput 
