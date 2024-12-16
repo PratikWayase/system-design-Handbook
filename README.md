@@ -167,6 +167,11 @@ Hardware upgrades
 - Example: The amount of data (in Mbps) that can be downloaded per second from a server.
 
 
+## consistency in distributed system : 
+
+A distributed system replicates data across multiple servers to achieve improved fault tolerance, scalability, and reliability. Consistency refers to a set of techniques for data storage and management in a distributed system, which can impact the scalability and reliability of the system
+
+
 
 ## System availability in Numbers 
 
