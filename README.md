@@ -134,17 +134,23 @@ Find the Right Balance: Aim for a solution that meets your needs without sacrifi
 
 #### Latency Types
 
-- Network Latency
+- Network Latency :
 Time for data to travel network infrastructure
 
-- Processing Latency
+- Processing Latency :
 Time taken by devices to process incoming data
 
-- Transmission Latency
+- Transmission Latency :
 Time to push data onto the network medium
 
-- Propagation Latency
+- Propagation Latency :
 Physical time signal takes to travel
+
+- Strategies to Reduce Latency
+
+Content Delivery Networks (CDNs),
+Optimized routing,
+Hardware upgrades
 
 
   
