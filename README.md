@@ -187,10 +187,27 @@ Consider an example with an Instagram post. When a user creates a post on one se
  - The primary instance sends an acknowledgment signal to the client.
 
 - Use Cases:
-
 File Systems
 Relational Databases
 Financial Services (trading platform,banking)
+
+### Eventual Consistency
+When a write operation is executed on a server, the immediate subsequent read operations on other servers do not necessarily return the latest written data. 
+This pattern typically replicates the data asynchronously across multiple servers.
+
+The eventual consistency pattern is highly available and has low latency, but the disadvantages are that the data can be inconsistent, and there is a chance of data loss or conflicts.
+
+ Workflow to attain eventual consistency in data replication:
+
+- The client executes a write operation against the primary database instance.
+- The primary instance sends an acknowledgment signal to the client.
+- The primary instance eventually propagates the written data to the replica instances.
+  
+Use Cases:
+URL Shortener
+Domain Name System (DNS)
+
+
 
 
 
