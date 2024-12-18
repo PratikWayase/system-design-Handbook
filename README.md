@@ -208,6 +208,12 @@ URL Shortener
 Domain Name System (DNS)
 
 
+### Weak consistency 
+
+is a consistency model where a write operation to a system may not be immediately visible to all subsequent read operations. While this can lead to data inconsistency, it often offers high availability and low latency.
+
+
+
 
 
 
