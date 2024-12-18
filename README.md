@@ -212,6 +212,14 @@ Domain Name System (DNS)
 
 is a consistency model where a write operation to a system may not be immediately visible to all subsequent read operations. While this can lead to data inconsistency, it often offers high availability and low latency.
 
+Use Cases:
+
+- Video Games: To ensure smooth gameplay, video game servers often use weak consistency.
+ Client-side predictions and server reconciliation are used to handle potential inconsistencies.
+
+- Live Streaming: In live streaming, it's often more important to deliver content quickly than to ensure absolute consistency.
+ Weak consistency allows for faster delivery, even at the cost of potential slight delays or inconsistencies.
+
 
 
 
