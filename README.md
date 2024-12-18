@@ -221,7 +221,8 @@ Use Cases:
  Weak consistency allows for faster delivery, even at the cost of potential slight delays or inconsistencies.
 
 
-### Causal consistency :  ensures that related events (cause and effect) are observed in the correct order by all systems. 
+### Causal consistency :  
+ensures that related events (cause and effect) are observed in the correct order by all systems. 
 However, unrelated events can be observed in any order.
 To achieve causal consistency, systems often use a technique called vector clocks. Vector clocks help track the causal relationships between events.
 
