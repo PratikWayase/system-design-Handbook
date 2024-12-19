@@ -229,6 +229,8 @@ To achieve causal consistency, systems often use a technique called vector clock
 - example 
 Think of a comment thread on a social media platform like Reddit. Replies to a specific comment must be seen in the order they were posted. This ensures that the conversation flows logically. However, different comment threads can be displayed in any order, as they are not directly related.
 
+# 
+
 
 ## Availability Patterns  
 
@@ -238,6 +240,11 @@ Think of a comment thread on a social media platform like Reddit. Replies to a s
 The active-active pattern is a modern distributed system architecture where multiple application instances are operational simultaneously, serving user requests. 
 This pattern ensures high scalability, fault tolerance, and optimal resource utilization. Seamless horizontal scaling supports high-performance requirements.
 
+- Example
+  
+E-Commerce Platform: Consider an e-commerce website during a Black Friday sale. To handle a surge in user traffic:
+Multiple server instances (A, B, C) operate in parallel, distributing incoming user requests via a load balancer.
+If one instance fails (e.g., Server B), traffic is dynamically rerouted to Servers A and C without downtime.
 
 
 ## System availability in Numbers 
