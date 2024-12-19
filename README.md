@@ -232,6 +232,11 @@ Think of a comment thread on a social media platform like Reddit. Replies to a s
 
 
 
+#### Active-Active Pattern
+
+The active-active pattern is a modern distributed system architecture where multiple application instances are operational simultaneously, serving user requests. 
+This pattern ensures high scalability, fault tolerance, and optimal resource utilization. Seamless horizontal scaling supports high-performance requirements.
+
 
 
 ## System availability in Numbers 
