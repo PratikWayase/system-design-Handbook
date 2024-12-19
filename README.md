@@ -230,6 +230,7 @@ To achieve causal consistency, systems often use a technique called vector clock
 Think of a comment thread on a social media platform like Reddit. Replies to a specific comment must be seen in the order they were posted. This ensures that the conversation flows logically. However, different comment threads can be displayed in any order, as they are not directly related.
 
 
+## Availability Patterns  
 
 
 #### Active-Active Pattern
