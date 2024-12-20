@@ -262,6 +262,10 @@ If Server A fails, Server B:
 Takes over the chat sessions with the most recent replicated state.
 Ensures the conversation continues without requiring the customer to reconnect.
 
+#### Failover Pattern
+
+The failover pattern is an essential high-availability strategy in distributed system design. It ensures uninterrupted service during system failures by 
+seamlessly transitioning operations to a backup system. Failover is critical for minimizing downtime and ensuring service reliability in mission-critical applications.
 
 
 ## System availability in Numbers 
