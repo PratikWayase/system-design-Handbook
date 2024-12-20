@@ -246,6 +246,11 @@ E-Commerce Platform: Consider an e-commerce website during a Black Friday sale. 
 Multiple server instances (A, B, C) operate in parallel, distributing incoming user requests via a load balancer.
 If one instance fails (e.g., Server B), traffic is dynamically rerouted to Servers A and C without downtime.
 
+#### Active-Passive Pattern
+
+The active-passive pattern prioritizes simplicity and resource efficiency. In this model, one primary instance handles all traffic, while secondary instances remain on standby, 
+ready to take over in case of failure. While not as scalable as active-active, it ensures predictable failover with minimal infrastructure costs.
+
 
 ## System availability in Numbers 
 
