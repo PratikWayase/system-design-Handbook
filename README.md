@@ -251,6 +251,18 @@ If one instance fails (e.g., Server B), traffic is dynamically rerouted to Serve
 The active-passive pattern prioritizes simplicity and resource efficiency. In this model, one primary instance handles all traffic, while secondary instances remain on standby, 
 ready to take over in case of failure. While not as scalable as active-active, it ensures predictable failover with minimal infrastructure costs.
 
+- example :
+  
+Imagine a customer is chatting with a support agent. Server A (active) handles:
+The customer-agent conversation in real time,Storing the chat history in a database.
+Server B (passive):
+Regularly replicates the chat history from the database.Monitors Server A’s status via heartbeat signals.
+
+If Server A fails, Server B:
+Takes over the chat sessions with the most recent replicated state.
+Ensures the conversation continues without requiring the customer to reconnect.
+
+
 
 ## System availability in Numbers 
 
