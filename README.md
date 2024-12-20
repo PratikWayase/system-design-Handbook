@@ -267,6 +267,19 @@ Ensures the conversation continues without requiring the customer to reconnect.
 The failover pattern is an essential high-availability strategy in distributed system design. It ensures uninterrupted service during system failures by 
 seamlessly transitioning operations to a backup system. Failover is critical for minimizing downtime and ensuring service reliability in mission-critical applications.
 
+- example :
+An online payment gateway (Stripe) processes millions of transactions daily.
+
+ -- Setup:
+Primary Server: Handles transaction processing.
+Backup Server: Stays in sync with the primary server, replicating state and transaction logs.
+
+ -- Process:
+Heartbeat monitoring continuously checks the primary server's health.
+If the primary server fails, the backup server immediately takes over, ensuring customers can still make payments.
+Outcome: Minimal downtime, no transaction loss, and uninterrupted user experience.
+
+
 
 ## System availability in Numbers 
 
