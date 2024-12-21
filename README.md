@@ -280,6 +280,14 @@ If the primary server fails, the backup server immediately takes over, ensuring 
 Outcome: Minimal downtime, no transaction loss, and uninterrupted user experience.
 
 
+#### Replication Pattern
+
+The replication pattern ensures data availability and fault tolerance by maintaining multiple copies of data across different nodes or locations. I
+t is fundamental in distributed systems, allowing systems to handle high availability, scalability, and disaster recovery requirements.
+
+Replication Approaches
+
+
 
 ## System availability in Numbers 
 
