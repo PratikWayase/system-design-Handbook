@@ -285,7 +285,19 @@ Outcome: Minimal downtime, no transaction loss, and uninterrupted user experienc
 The replication pattern ensures data availability and fault tolerance by maintaining multiple copies of data across different nodes or locations. I
 t is fundamental in distributed systems, allowing systems to handle high availability, scalability, and disaster recovery requirements.
 
-Replication Approaches
+- Replication Approaches
+
+ - Synchronous Replication:
+
+Data is immediately written to all replicas, ensuring consistency.
+Higher latency due to waiting for confirmation from all nodes.
+Example: Financial trading systems where data accuracy is critical.
+
+ - Asynchronous Replication:
+
+Data is written to the primary node first, then asynchronously to replicas.
+Offers better performance with potential short-term inconsistencies.
+Example: Social media platforms like Instagram, where eventual consistency is accept
 
 
 
