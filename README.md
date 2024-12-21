@@ -299,6 +299,21 @@ Data is written to the primary node first, then asynchronously to replicas.
 Offers better performance with potential short-term inconsistencies.
 Example: Social media platforms like Instagram, where eventual consistency is accept
 
+Example : 
+
+A cloud storage service (e.g., Google Drive) replicates user files to multiple data centers worldwide.
+
+Setup:
+Synchronous replication for files within the same region (ensures immediate consistency).
+Asynchronous replication for files across continents (reduces latency).
+
+Process:
+A user uploads a document in New York.
+The file is immediately replicated to nearby data centers (synchronous).
+The file is later replicated to a European data center (asynchronous) for disaster recovery.
+Outcome: The user's file is always accessible, even during regional outages.
+
+
 
 
 ## System availability in Numbers 
