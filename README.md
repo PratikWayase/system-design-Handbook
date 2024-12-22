@@ -314,6 +314,11 @@ The file is later replicated to a European data center (asynchronous) for disast
 Outcome: The user's file is always accessible, even during regional outages.
 
 
+#### Sharding Pattern
+
+Sharding is a powerful data partitioning technique that divides a large dataset into smaller, more manageable segments (called shards). 
+Each shard is stored and processed independently, enabling systems to scale horizontally and handle massive amounts of data more efficiently.
+
 
 
 ## System availability in Numbers 
