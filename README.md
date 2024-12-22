@@ -319,6 +319,17 @@ Outcome: The user's file is always accessible, even during regional outages.
 Sharding is a powerful data partitioning technique that divides a large dataset into smaller, more manageable segments (called shards). 
 Each shard is stored and processed independently, enabling systems to scale horizontally and handle massive amounts of data more efficiently.
 
+- Sharding Strategies:
+
+Range-Based Sharding: Data is split based on value ranges.
+Example: A user database sharded by age group (e.g., 0–18, 19–35, 36–60).
+Hash-Based Sharding: A hash function distributes data evenly across shards.
+Example: User IDs are hashed to determine the shard for storing user profiles.
+Directory-Based Sharding: A lookup table maintains data location.
+Example: A central directory maps customer IDs to the specific shard storing their orders.
+Geographical Sharding: Data is partitioned based on geographic regions.
+Example: A logistics platform stores orders in regional shards (e.g., US, Europe, Asia).
+
 
 
 ## System availability in Numbers 
