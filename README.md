@@ -356,10 +356,18 @@ Queries for user posts are sent directly to the corresponding shard, minimizing 
 Outcome: Scalable infrastructure capable of handling millions of concurrent users.
 
 
+# 
 
 
 #### Load Balancing Pattern
 Load balancing is an architectural strategy that distributes incoming traffic or computational workloads across multiple servers or resources. It ensures optimal resource utilization, system reliability, and scalability.
+
+##### Load Balancer Types:
+
+Hardware Load Balancers: High-performance physical devices (e.g., F5).
+Software Load Balancers: Solutions like Nginx or HAProxy.
+Cloud-Native Load Balancers: Services like AWS Elastic Load Balancer or Azure Load Balancer.
+Application-Level Load Balancers: Focus on routing based on application-specific criteria.
 
 
 ## System availability in Numbers 
