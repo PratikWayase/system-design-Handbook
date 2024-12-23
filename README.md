@@ -331,6 +331,16 @@ Geographical Sharding: Data is partitioned based on geographic regions.
 Example: A logistics platform stores orders in regional shards (e.g., US, Europe, Asia).
 
 
+- Partitioning Techniques:
+
+Horizontal Partitioning: Splits rows into different shards.
+Example: A product catalog divides rows of products alphabetically (A–M in one shard, N–Z in another).
+Vertical Partitioning: Splits columns across databases.
+Example: User profile data (e.g., names and emails) in one shard and activity logs in another.
+Functional Partitioning: Groups data by functionality.
+Example: Orders and payments data are stored in separate shards.
+
+
 
 ## System availability in Numbers 
 
