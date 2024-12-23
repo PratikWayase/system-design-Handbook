@@ -191,6 +191,8 @@ File Systems
 Relational Databases
 Financial Services (trading platform,banking)
 
+#
+
 ### Eventual Consistency
 When a write operation is executed on a server, the immediate subsequent read operations on other servers do not necessarily return the latest written data. 
 This pattern typically replicates the data asynchronously across multiple servers.
@@ -208,6 +210,9 @@ URL Shortener
 Domain Name System (DNS)
 
 
+#
+
+
 ### Weak consistency 
 
 is a consistency model where a write operation to a system may not be immediately visible to all subsequent read operations. While this can lead to data inconsistency, it often offers high availability and low latency.
@@ -220,6 +225,7 @@ Use Cases:
 - Live Streaming: In live streaming, it's often more important to deliver content quickly than to ensure absolute consistency.
  Weak consistency allows for faster delivery, even at the cost of potential slight delays or inconsistencies.
 
+#
 
 ### Causal consistency :  
 ensures that related events (cause and effect) are observed in the correct order by all systems. 
