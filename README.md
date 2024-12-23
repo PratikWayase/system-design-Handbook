@@ -340,6 +340,20 @@ Example: User profile data (e.g., names and emails) in one shard and activity lo
 Functional Partitioning: Groups data by functionality.
 Example: Orders and payments data are stored in separate shards.
 
+- Example: Social Media Platform Sharding
+Scenario: A global social media platform like Instagram stores user posts in a sharded database to handle billions of records.
+
+Setup:
+
+Hash-based sharding with the user ID as the shard key.
+Each shard stores posts for a subset of users.
+
+Process:
+
+A user's post is routed to the correct shard using a hash of their user ID.
+Queries for user posts are sent directly to the corresponding shard, minimizing latency.
+Outcome: Scalable infrastructure capable of handling millions of concurrent users.
+
 
 
 ## System availability in Numbers 
