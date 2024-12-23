@@ -313,6 +313,7 @@ The file is immediately replicated to nearby data centers (synchronous).
 The file is later replicated to a European data center (asynchronous) for disaster recovery.
 Outcome: The user's file is always accessible, even during regional outages.
 
+#
 
 #### Sharding Pattern
 
@@ -354,6 +355,11 @@ A user's post is routed to the correct shard using a hash of their user ID.
 Queries for user posts are sent directly to the corresponding shard, minimizing latency.
 Outcome: Scalable infrastructure capable of handling millions of concurrent users.
 
+
+
+
+#### Load Balancing Pattern
+Load balancing is an architectural strategy that distributes incoming traffic or computational workloads across multiple servers or resources. It ensures optimal resource utilization, system reliability, and scalability.
 
 
 ## System availability in Numbers 
