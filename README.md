@@ -381,10 +381,22 @@ Load balancing is an architectural strategy that distributes incoming traffic or
 
 ##### Load Balancer Types:
 
-Hardware Load Balancers: High-performance physical devices (e.g., F5).
-Software Load Balancers: Solutions like Nginx or HAProxy.
-Cloud-Native Load Balancers: Services like AWS Elastic Load Balancer or Azure Load Balancer.
-Application-Level Load Balancers: Focus on routing based on application-specific criteria.
+- Hardware Load Balancers: High-performance physical devices (e.g., F5).
+- Software Load Balancers: Solutions like Nginx or HAProxy.
+- Cloud-Native Load Balancers: Services like AWS Elastic Load Balancer or Azure Load Balancer.
+- Application-Level Load Balancers: Focus on routing based on application-specific criteria.
+
+Example: 
+An e-commerce website like Amazon experiences high traffic spikes during sales.
+
+Setup:
+Load balancer distributes user requests across multiple servers.
+Uses a weighted round-robin algorithm to allocate more traffic to powerful servers.
+
+Process:
+User requests for product pages are routed evenly.
+Health checks detect server failures, rerouting traffic to healthy servers.
+Outcome: A seamless shopping experience even during peak traffic.
 
 # 
 
