@@ -376,6 +376,12 @@ Queries for user posts are sent directly to the corresponding shard, minimizing 
 Outcome: Scalable infrastructure capable of handling millions of concurrent users.
 
 
+Choose sharding when:
+
+Your application manages massive datasets (e.g., analytics platforms, social networks).
+Horizontal scaling of databases is a priority.
+
+
 # 
 
 
@@ -401,6 +407,11 @@ User requests for product pages are routed evenly.
 Health checks detect server failures, rerouting traffic to healthy servers.
 Outcome: A seamless shopping experience even during peak traffic.
 
+
+Choose load balancing when:
+
+Your application requires high availability and performance under variable workloads.
+Traffic needs to be distributed across multiple servers.
 
 
 # 
