@@ -339,27 +339,30 @@ Each shard is stored and processed independently, enabling systems to scale hori
 
 - Sharding Strategies:
 
-Range-Based Sharding: Data is split based on value ranges.
+- Range-Based Sharding: Data is split based on value ranges.
 Example: A user database sharded by age group (e.g., 0–18, 19–35, 36–60).
-Hash-Based Sharding: A hash function distributes data evenly across shards.
+
+- Hash-Based Sharding: A hash function distributes data evenly across shards.
 Example: User IDs are hashed to determine the shard for storing user profiles.
-Directory-Based Sharding: A lookup table maintains data location.
+
+- Directory-Based Sharding: A lookup table maintains data location.
 Example: A central directory maps customer IDs to the specific shard storing their orders.
-Geographical Sharding: Data is partitioned based on geographic regions.
+
+- Geographical Sharding: Data is partitioned based on geographic regions.
 Example: A logistics platform stores orders in regional shards (e.g., US, Europe, Asia).
 
 
 - Partitioning Techniques:
 
-Horizontal Partitioning: Splits rows into different shards.
+- Horizontal Partitioning: Splits rows into different shards.
 Example: A product catalog divides rows of products alphabetically (A–M in one shard, N–Z in another).
-Vertical Partitioning: Splits columns across databases.
+- Vertical Partitioning: Splits columns across databases.
 Example: User profile data (e.g., names and emails) in one shard and activity logs in another.
-Functional Partitioning: Groups data by functionality.
+- Functional Partitioning: Groups data by functionality.
 Example: Orders and payments data are stored in separate shards.
 
-- Example: Social Media Platform Sharding
-Scenario: A global social media platform like Instagram stores user posts in a sharded database to handle billions of records.
+- Example: 
+ A global social media platform like Instagram stores user posts in a sharded database to handle billions of records.
 
 Setup:
 
