@@ -352,7 +352,7 @@ Example: A central directory maps customer IDs to the specific shard storing the
 Example: A logistics platform stores orders in regional shards (e.g., US, Europe, Asia).
 
 
-- Partitioning Techniques:
+##### Partitioning Techniques:
 
 - Horizontal Partitioning: Splits rows into different shards.
 Example: A product catalog divides rows of products alphabetically (A–M in one shard, N–Z in another).
@@ -361,7 +361,7 @@ Example: User profile data (e.g., names and emails) in one shard and activity lo
 - Functional Partitioning: Groups data by functionality.
 Example: Orders and payments data are stored in separate shards.
 
-- Example: 
+Example: 
  A global social media platform like Instagram stores user posts in a sharded database to handle billions of records.
 
 Setup:
@@ -400,6 +400,8 @@ Process:
 User requests for product pages are routed evenly.
 Health checks detect server failures, rerouting traffic to healthy servers.
 Outcome: A seamless shopping experience even during peak traffic.
+
+
 
 # 
 
