@@ -337,7 +337,7 @@ Outcome: The user's file is always accessible, even during regional outages.
 Sharding is a powerful data partitioning technique that divides a large dataset into smaller, more manageable segments (called shards). 
 Each shard is stored and processed independently, enabling systems to scale horizontally and handle massive amounts of data more efficiently.
 
-- Sharding Strategies:
+**Sharding Strategie**
 
 - Range-Based Sharding: Data is split based on value ranges.
 Example: A user database sharded by age group (e.g., 0–18, 19–35, 36–60).
@@ -361,7 +361,7 @@ Example: User profile data (e.g., names and emails) in one shard and activity lo
 - Functional Partitioning: Groups data by functionality.
 Example: Orders and payments data are stored in separate shards.
 
-Example: 
+**Example**
  A global social media platform like Instagram stores user posts in a sharded database to handle billions of records.
 
 Setup:
@@ -376,7 +376,7 @@ Queries for user posts are sent directly to the corresponding shard, minimizing 
 Outcome: Scalable infrastructure capable of handling millions of concurrent users.
 
 
-Choose sharding when:
+**Choose sharding when**
 
 Your application manages massive datasets (e.g., analytics platforms, social networks).
 Horizontal scaling of databases is a priority.
@@ -408,7 +408,7 @@ Health checks detect server failures, rerouting traffic to healthy servers.
 Outcome: A seamless shopping experience even during peak traffic.
 
 
-Choose load balancing when:
+**Choose load balancing when**
 
 Your application requires high availability and performance under variable workloads.
 Traffic needs to be distributed across multiple servers.
@@ -448,10 +448,10 @@ A CDN (Content Delivery Network) enhances website performance and ensures conten
 
 Think of the internet as a giant library with books (web content) stored in various locations:
 
-- Origin Servers: are like the main library where the original copies of all books are kept. Any new book is added or updated here.
--  
+- **Origin Servers**: are like the main library where the original copies of all books are kept. Any new book is added or updated here.
+  
 - **Edge Servers** are smaller libraries located in different cities. They store copies of the most popular books from the main library. When you need a book, you visit the closest smaller library instead of traveling all the way to the main one, saving time and effort. Similarly, when you access a website, the CDN directs your request to the nearest edge server to ensure faster content delivery.
-- 
+  
 - **DNS Servers** act as the librarians who know the exact location of every book. They guide you to the nearest library (edge server) that has the book you’re looking for.  
 
 
