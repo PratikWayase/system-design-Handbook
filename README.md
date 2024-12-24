@@ -55,6 +55,8 @@ This means that every request made in the system must return either a successful
 aims to process queries and provide the most recent available version of information, 
 even if it cannot ensure it is completely up-to-date due to network partitioning
 
+# 
+
 ## Performance vs Scalability
  
 ### Performance 
@@ -152,7 +154,7 @@ Content Delivery Networks (CDNs),
 Optimized routing,
 Hardware upgrades
 
-
+# 
   
 
 ### throughput 
@@ -165,6 +167,9 @@ Hardware upgrades
 - Measure: Throughput is a measure of data transfer.
 - Importance: Important for data-intensive applications like file transfer apps.
 - Example: The amount of data (in Mbps) that can be downloaded per second from a server.
+
+
+# 
 
 
 ## consistency in distributed system : 
@@ -252,6 +257,8 @@ E-Commerce Platform: Consider an e-commerce website during a Black Friday sale. 
 Multiple server instances (A, B, C) operate in parallel, distributing incoming user requests via a load balancer.
 If one instance fails (e.g., Server B), traffic is dynamically rerouted to Servers A and C without downtime.
 
+# 
+
 #### Active-Passive Pattern
 
 The active-passive pattern prioritizes simplicity and resource efficiency. In this model, one primary instance handles all traffic, while secondary instances remain on standby, 
@@ -267,6 +274,8 @@ Regularly replicates the chat history from the database.Monitors Server A’s st
 If Server A fails, Server B:
 Takes over the chat sessions with the most recent replicated state.
 Ensures the conversation continues without requiring the customer to reconnect.
+
+# 
 
 #### Failover Pattern
 
@@ -284,6 +293,8 @@ Backup Server: Stays in sync with the primary server, replicating state and tran
 Heartbeat monitoring continuously checks the primary server's health.
 If the primary server fails, the backup server immediately takes over, ensuring customers can still make payments.
 Outcome: Minimal downtime, no transaction loss, and uninterrupted user experience.
+
+# 
 
 
 #### Replication Pattern
@@ -375,6 +386,7 @@ Software Load Balancers: Solutions like Nginx or HAProxy.
 Cloud-Native Load Balancers: Services like AWS Elastic Load Balancer or Azure Load Balancer.
 Application-Level Load Balancers: Focus on routing based on application-specific criteria.
 
+# 
 
 ## System availability in Numbers 
 
