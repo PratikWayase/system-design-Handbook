@@ -461,7 +461,10 @@ Think of the internet as a giant library with books (web content) stored in vari
 Geographic Distribution: CDNs have servers located all around the world. When you request a webpage, the CDN directs you to the nearest server, reducing the distance the data has to travel.
 Caching: CDNs store copies of popular content on these servers. So, if many people are requesting the same page, the CDN can quickly serve it from the local server, instead of fetching it from the origin server, which can be far away.
 
+**Balancing Network Loads**
 
+**Load Balancing**: CDNs distribute the traffic across multiple servers. This prevents any single server from becoming overloaded.
+**Dynamic Routing**: CDNs intelligently route traffic to the least busy server, ensuring optimal performance.
 
 
 #
