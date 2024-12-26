@@ -497,6 +497,13 @@ Imagine the internet as a giant city.
 Every building (website) has a unique address (IP address), but these addresses are just long strings of numbers, hard to remember.
 DNS is like the city's phonebook. It translates easy-to-remember names (domain names) like "google.com" into the actual building addresses (IP addresses) that computers understand.
 
+ **how it works**:
+
+- You want to visit a website, so you type "google.com" into your web browser.
+- Your browser doesn't understand names, so it asks a special helper called a DNS server to look it up.
+- The DNS server, like a librarian looking through a phonebook, searches for "google.com" and finds its actual address (IP address).
+- With the address in hand, your browser can now connect to the website and show you google.com.
+
 
 ## Client-Server Architecture
 
