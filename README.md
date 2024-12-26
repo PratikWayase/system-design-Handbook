@@ -488,6 +488,15 @@ better suited for static content, such as images, videos, or downloadable files.
 
 #
 
+### DNS 
+
+translates website names into addresses, making the internet a more user-friendly place.
+
+Imagine the internet as a giant city.
+
+Every building (website) has a unique address (IP address), but these addresses are just long strings of numbers, hard to remember.
+DNS is like the city's phonebook. It translates easy-to-remember names (domain names) like "google.com" into the actual building addresses (IP addresses) that computers understand.
+
 
 ## Client-Server Architecture
 
