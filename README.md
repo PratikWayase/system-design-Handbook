@@ -505,6 +505,16 @@ DNS is like the city's phonebook. It translates easy-to-remember names (domain n
 - With the address in hand, your browser can now connect to the website and show you google.com.
 
 
+**Benefits of DNS**:
+
+- Makes the internet easier to use by remembering names instead of numbers.
+- Speeds things up by caching addresses so you don't have to look them up every time.
+- Keeps things organized by assigning addresses in a hierarchical way.
+
+more info on https://www.cloudflare.com/learning/dns/what-is-dns/
+
+#
+
 ## Client-Server Architecture
 
 ### Client:
