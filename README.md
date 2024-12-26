@@ -452,7 +452,8 @@ Think of the internet as a giant library with books (web content) stored in vari
   
 - **Edge Servers** are smaller libraries located in different cities. They store copies of the most popular books from the main library. When you need a book, you visit the closest smaller library instead of traveling all the way to the main one, saving time and effort. Similarly, when you access a website, the CDN directs your request to the nearest edge server to ensure faster content delivery.
   
-- **DNS Servers** act as the librarians who know the exact location of every book. They guide you to the nearest library (edge server) that has the book you’re looking for.  
+- **DNS Servers** act as the librarians who know the exact location of every book. They guide you to the nearest library (edge server) that has the book you’re looking for.
+  
 
 ###### HOW CDNs reduce latency and balance network loads:
 
@@ -465,6 +466,15 @@ Caching: CDNs store copies of popular content on these servers. So, if many peop
 
 **Load Balancing**: CDNs distribute the traffic across multiple servers. This prevents any single server from becoming overloaded.
 **Dynamic Routing**: CDNs intelligently route traffic to the least busy server, ensuring optimal performance.
+
+
+### Pull CDN 
+
+Imagine you're in a library. When you ask the librarian for a book, they go to the shelves to fetch it for you. If many people request the same book, the librarian might keep a copy on their desk for quicker access.
+
+A Pull CDN works similarly. When a user requests a webpage or a file, the CDN server checks if it has a copy. If not, it fetches the content from the origin server and stores it locally for future requests. This ensures that the content is always up-to-date.
+
+ideal for websites with dynamic content, such as news websites or e-commerce stores.
 
 
 #
