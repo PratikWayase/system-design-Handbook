@@ -515,6 +515,17 @@ more info on https://www.cloudflare.com/learning/dns/what-is-dns/
 
 #
 
+
+## Event-Driven Architecture
+
+**Concepts**
+
+. Event Broker : -
+An event broker acts as middleware (software, appliance, or SaaS) that routes events between systems using the publish-subscribe messaging pattern. Applications connect to the broker, which accepts events from publishers and delivers them to subscribers. Effective system design and governance ensure events are delivered where needed, with tools like event portals facilitating design, documentation, and governance.
+
+
+#
+
 ## Client-Server Architecture
 
 ### Client:
