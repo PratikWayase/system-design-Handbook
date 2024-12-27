@@ -5,6 +5,8 @@
 - [Key Insights on CAP Theorem](#key-insights-on-cap-theorem-in-databases)  
 
 [Performance vs Scalability](#Performance-vs-Scalability) 
+ - [Performance](#Performance )
+ 
 
 ## CAP Theorem 
 (Consistency, Availability, Partition Tolerance)
