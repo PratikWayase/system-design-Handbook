@@ -2,7 +2,9 @@
 
 [CAP theorem](#cap-theorem)
 
-- [Key Insights on CAP Theorem](#key-insights-on-cap-theorem-in-databases)  
+- [Key Insights on CAP Theorem](#key-insights-on-cap-theorem-in-databases)
+
+#
 
 [Performance vs Scalability](#Performance-vs-Scalability) 
  - [Performance](#Performance )
