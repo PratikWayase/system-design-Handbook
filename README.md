@@ -6,7 +6,10 @@
 
 [Performance vs Scalability](#Performance-vs-Scalability) 
  - [Performance](#Performance )
- 
+ - [Scalability](#Scalability )
+ - [trade off](#trade-off)
+
+
 
 ## CAP Theorem 
 (Consistency, Availability, Partition Tolerance)
@@ -126,6 +129,7 @@ but increase schema complexity, needing periodic maintenance.
  The website should be able to handle a sudden surge in visitors without crashing.
 
 #### trade off
+
  Sometimes, improving performance can make it harder to scale
 
 Find the Right Balance: Aim for a solution that meets your needs without sacrificing too much on either side.
