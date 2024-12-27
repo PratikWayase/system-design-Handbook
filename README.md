@@ -1,6 +1,10 @@
 # system-design-Handbook
 
 [CAP theorem](#cap-theorem)
+[Key Insights on CAP Theorem](#key-insights-on-cap-theorem-in-databases)  
+[Partition Tolerance](#partition-tolerance-is-mandatory)  
+[Consistency in CAP vs. ACID](#consistency-in-cap-vs-acid)  
+[CAP Trade-offs](#cap-trade-offs)
 
 ## CAP Theorem 
 (Consistency, Availability, Partition Tolerance)
