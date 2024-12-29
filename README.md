@@ -11,6 +11,14 @@
  - [Scalability](#Scalability )
  - [trade off](#trade-off)
 
+#
+ [ Latency](#Latency)
+ [throughput ](#throughput )
+
+#
+
+ 
+
 
 
 ## CAP Theorem 
