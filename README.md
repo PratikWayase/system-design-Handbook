@@ -1,5 +1,9 @@
 # system-design-Handbook
 
+![system-design_page-0001 (1)](https://github.com/user-attachments/assets/2619371b-b8ea-4521-9cc6-ef24b106de21)
+
+#
+
 [CAP theorem](#cap-theorem)
 
 - [Key Insights on CAP Theorem](#key-insights-on-cap-theorem-in-databases)
@@ -19,9 +23,12 @@
 #
 
  [consistency in distributed system ](#consistency-in-distributed-system)
+
+  - [Strong Consistency](#Strong-Consistency)
+  - [Eventual Consistency](#Eventual-Consistency)
+  - [Causal consistency ](#Causal-Consistency)
+  - [Weak consistency ](#Weak-Consistency)
  
-
-
 
 ## CAP Theorem 
 (Consistency, Availability, Partition Tolerance)
@@ -829,9 +836,6 @@ Instead of directly interacting with each provider's API separately, this approa
 
 
 
-
-
-![system-design_page-0001 (1)](https://github.com/user-attachments/assets/2619371b-b8ea-4521-9cc6-ef24b106de21)
 
 
 
