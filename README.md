@@ -15,9 +15,10 @@
  [ Latency](#Latency)
  
  [throughput ](#throughput )
-
+ 
 #
 
+ [consistency in distributed system ](#consistency-in-distributed-system)
  
 
 
