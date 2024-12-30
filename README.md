@@ -559,11 +559,13 @@ An event broker acts as middleware (software, appliance, or SaaS) that routes ev
 #
 
  -  Event Portal
+   
  adoption of event-driven architecture by enabling the design, documentation, and management of events and applications.
 
 #
 
  - Topics
+   
  hierarchical metadata strings describing the content of events. 
 
  - Publishers: Send an event once to a specific topic.
@@ -584,7 +586,7 @@ When an event is published, the publisher does not wait for an immediate respons
 
 #
 
- Eventual Consistency
+ - Eventual Consistency
  
  events are processed asynchronously, systems cannot guarantee immediate synchronization across stateful entities (e.g., databases, ERPs). However, eventual consistency ensures that, over time, all systems will converge to the correct state.
 
