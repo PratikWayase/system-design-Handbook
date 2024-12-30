@@ -556,8 +556,12 @@ more info on https://www.cloudflare.com/learning/dns/what-is-dns/
  - Event Broker : -
 An event broker acts as middleware (software, appliance, or SaaS) that routes events between systems using the publish-subscribe messaging pattern. Applications connect to the broker, which accepts events from publishers and delivers them to subscribers. Effective system design and governance ensure events are delivered where needed, with tools like event portals facilitating design, documentation, and governance.
 
+#
+
  -  Event Portal
- adoption of event-driven architecture by enabling the design, documentation, and management of events and applications. 
+ adoption of event-driven architecture by enabling the design, documentation, and management of events and applications.
+
+#
 
  - Topics
  hierarchical metadata strings describing the content of events. 
@@ -566,22 +570,31 @@ An event broker acts as middleware (software, appliance, or SaaS) that routes ev
  - Subscribers: Register for relevant topics or groups of topics using wildcards.
   This ensures filtering is done by subscriptions, not business logic, and events are efficiently distributed to recipients.
 
+#
+
 - Event Mesh
   
 An event mesh is a dynamic infrastructure layer composed of interconnected event brokers. It distributes events among decoupled applications, regardless of their deployment location (on-premises, cloud, or IoT). The mesh dynamically routes events by sharing consumer topic subscriptions across the network, ensuring seamless communication.
+
+#
 
 - Deferred Execution
   
 When an event is published, the publisher does not wait for an immediate response. Instead, the event broker persists the event until consumers process it. This deferred execution creates cascades of events, each functionally and temporally independent, but occurring in a sequence.
 
+#
+
  Eventual Consistency
  
-Since events are processed asynchronously, systems cannot guarantee immediate synchronization across stateful entities (e.g., databases, ERPs). However, eventual consistency ensures that, over time, all systems will converge to the correct state.
+ events are processed asynchronously, systems cannot guarantee immediate synchronization across stateful entities (e.g., databases, ERPs). However, eventual consistency ensures that, over time, all systems will converge to the correct state.
+
+#
 
  - Choreography
    
 In event-driven systems, coordination among services is achieved through choreography rather than orchestration. Services autonomously respond to incoming events and generate new events, resulting in a “dance” of coordinated actions. This eliminates a single point of failure or bottleneck, as seen in orchestration-based systems.
 
+#
 
 - CQRS (Command Query Responsibility Segregation)
   
