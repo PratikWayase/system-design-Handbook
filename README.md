@@ -26,7 +26,18 @@
   - [Eventual Consistency](#Eventual-Consistency)
   - [Causal consistency ](#Causal-Consistency)
   - [Weak consistency ](#Weak-Consistency)
- 
+
+#
+[Availability Patterns](#Availability-Patterns)
+
+ - [ Active-Active Pattern](#Active-Active-Pattern)
+ - [Active-Passive Pattern](#Active-Passive-Pattern)
+ - [Failover Pattern](#Failover-Pattern)
+ - [Replication Pattern](#Replication-Pattern)
+ - [Sharding Pattern](#Sharding-Pattern)
+ - [Load Balancing Pattern](#Load-Balancing-Pattern)
+
+#
 
 ![system-design_page-0001 (1)](https://github.com/user-attachments/assets/2619371b-b8ea-4521-9cc6-ef24b106de21)
 
