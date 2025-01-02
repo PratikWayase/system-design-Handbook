@@ -613,6 +613,15 @@ In event-driven systems, coordination among services is achieved through choreog
   
 CQRS separates the responsibilities of commands (actions like insert/update) from queries (retrieving data). This is particularly useful for scaling, as query operations often outnumber commands. In event-driven architecture, topics contain the action verb, allowing dedicated query services to process relevant topics independently and efficiently.
 
+**How EDA Works**
+
+Event Generation: When an event occurs (e.g., a customer places an order), a system generates an event message.   
+
+Event Brokering: The event message is sent to an event broker, which acts as a central hub for distributing events. ( message queue , kafka , rabbit MQ )  
+
+Event Consumption: Interested systems and applications subscribe to specific event topics. When a relevant event is published, the broker delivers it to the subscribers.  
+
+Event Processing: Subscribers process the event and take appropriate actions, such as updating a database, sending a notification, or triggering a workflow
 
 
 #
