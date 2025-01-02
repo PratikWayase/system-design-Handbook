@@ -646,10 +646,10 @@ reverse proxy is a type of physical or virtual network device, software, or clou
 Imagine you're ordering food from a restaurant called "Pizza Palace." Instead of going directly to the kitchen to place your order, you tell a waiter.
 
 waiter
- - Takes your order: You tell the waiter what you want, like a large pepperoni pizza.
+   - Takes your order: You tell the waiter what you want, like a large pepperoni pizza.
    - Checks your order: The waiter ensures your request is clear and valid (e.g., you're not asking for something the restaurant doesn't offer).
-    - Passes it to the kitchen: Once everything looks good, the waiter tells the kitchen staff what to make.
-    - Delivers the food: When the kitchen finishes your pizza, the waiter brings it to your table.
+   - Passes it to the kitchen: Once everything looks good, the waiter tells the kitchen staff what to make.
+   - Delivers the food: When the kitchen finishes your pizza, the waiter brings it to your table.
   
 **Instead of users directly contacting the web server (the "kitchen"), they go through a reverse proxy (the "waiter").
 The reverse proxy adds safety, checks requests, forwards them to the server, and sends back the response to the user.**
