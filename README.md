@@ -39,6 +39,14 @@
 
 #
 
+[CDN ](#CDN )
+ - [HOW CDNs reduce latency and balance network loads](#HOW-CDNs-reduce-latency-and-balance-network-loads)
+ - [Pull CDN](#Pull-CDN)
+ - [Push CDN ](#Push-CDN)
+
+
+#
+
 ![system-design_page-0001 (1)](https://github.com/user-attachments/assets/2619371b-b8ea-4521-9cc6-ef24b106de21)
 
 #
