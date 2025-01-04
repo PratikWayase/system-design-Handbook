@@ -662,6 +662,42 @@ waiter
 **Instead of users directly contacting the web server (the "kitchen"), they go through a reverse proxy (the "waiter").
 The reverse proxy adds safety, checks requests, forwards them to the server, and sends back the response to the user.**
        
+#
+
+## Load balancing
+
+ distributing incoming network traffic or application requests across multiple servers or resources to ensure no single server becomes overwhelmed. It optimizes resource use, maximizes throughput, minimizes response time, and ensures high availability and reliability.
+
+implemented at :
+
+Network Level: Distributes traffic at the TCP/UDP level.
+Application Level: Distributes traffic based on specific application logic, like HTTP headers or cookies.
+
+**Challenges:**
+
+1) single point of failure : If the load balancer itself fails, the entire system might become unavailable unless there is redundancy.
+   
+2) latency issue : load balancer adds significant latency to requests, it can degrade the user experience.
+   
+3) limited scalabilty : poorly designed load balancing solutions might not scale effectively with growing traffic demands.
+
+
+#### TYPES :
+
+1) Hardware Load Balancers : High performance
+Example: F5 Big-IP series, Citrix ADC (NetScaler).
+
+2) Software Load Balancers : flexible 
+Examples: HAProxy, NGINX, Apache Traffic Server.
+
+3) Network Load Balancers (NLB) : Operates at Layer 4 (Transport Layer) of the OSI model.
+Distributes traffic based on TCP/UDP protocols without inspecting the payload.
+
+4) Application Load Balancers (ALB):Operates at Layer 7 (Application Layer).
+Routes requests based on content, such as HTTP headers, paths, or hostnames.
+
+5) . Global Load Balancers: Distributes traffic across multiple geographical regions.
+Example: Cloudflare / Serving users with low latency worldwide.
 
 
 #
