@@ -716,11 +716,11 @@ Imagine a busy airport.
  - Airport Operations (TCP Load Balancer): Doesn't care about your destination
  -  (application data): Just needs to get you to a gate.
 
-"Next available gate" (Round Robin)
-"Gate with fewest passengers" (Least Connections)
-"Your assigned gate for this flight" (Session Persistence)
-Hides specific gate locations: You only see the general boarding area.
-Monitors gate status: If a gate is experiencing delays, they'll redirect passengers.
+ - Next available gate (Round Robin)
+ - Gate with fewest passengers (Least Connections)
+ - Your assigned gate for this flight (Session Persistence)
+ - Hides specific gate locations: You only see the general boarding area.
+ - Monitors gate status: If a gate is experiencing delays, they'll redirect passengers.
 
 #
 
