@@ -699,6 +699,28 @@ Routes requests based on content, such as HTTP headers, paths, or hostnames.
 5) . Global Load Balancers: Distributes traffic across multiple geographical regions.
 Example: Cloudflare / Serving users with low latency worldwide.
 
+#### TCP load balancer ( network load balancer ) 
+
+known as a Layer 4 Load Balancer, operates at the transport layer (Layer 4) of the OSI model. It is specifically designed to distribute network traffic based on the transport-layer information in the TCP/IP protocol, such as IP addresses and port numbers. 
+
+The main purpose of a TCP load balancer is to distribute incoming traffic evenly across backend servers to optimize resource utilization and ensure availability. uses conncetion based algo round robin & least conncetions 
+
+In multi-region deployments, TCP load balancers can direct traffic to the nearest data center or server, reducing latency and improving user experience.
+
+TCP load balancers can offer session affinity by sticking connections to specific servers based on client information like IP.
+
+**example**
+Imagine a busy airport.
+ - Passengers (clients): They want to board a flight (access a service).
+ - Gates (servers): Where passengers board the flights.
+ - Airport Operations (TCP Load Balancer): Doesn't care about your destination
+ -  (application data): Just needs to get you to a gate.
+
+"Next available gate" (Round Robin)
+"Gate with fewest passengers" (Least Connections)
+"Your assigned gate for this flight" (Session Persistence)
+Hides specific gate locations: You only see the general boarding area.
+Monitors gate status: If a gate is experiencing delays, they'll redirect passengers.
 
 #
 
