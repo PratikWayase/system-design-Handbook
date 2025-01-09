@@ -9,9 +9,11 @@
 - [Performance](#performance)
 - [Scalability](#scalability)
 - [Trade-off](#trade-off)
+- [Latency](#Latency)
+- [Throughput](#Throughput)
 
-# Latency
-# Throughput
+# 
+
 
 # Consistency in Distributed Systems
 - [Strong Consistency](#strong-consistency)
