@@ -2,57 +2,39 @@
 
 #
 
-[CAP theorem](#cap-theorem)
-
+# CAP Theorem
 - [Key Insights on CAP Theorem](#key-insights-on-cap-theorem-in-databases)
 
-#
+# Performance vs Scalability
+- [Performance](#performance)
+- [Scalability](#scalability)
+- [Trade-off](#trade-off)
 
-[Performance vs Scalability](#Performance-vs-Scalability) 
- - [Performance](#Performance )
- - [Scalability](#Scalability )
- - [trade off](#trade-off)
+# Latency
+# Throughput
 
-#
- [ Latency](#Latency)
- 
- [throughput ](#throughput )
- 
-#
+# Consistency in Distributed Systems
+- [Strong Consistency](#strong-consistency)
+- [Eventual Consistency](#eventual-consistency)
+- [Causal Consistency](#causal-consistency)
+- [Weak Consistency](#weak-consistency)
 
- [consistency in distributed system ](#consistency-in-distributed-system)
+# Availability Patterns
+- [Active-Active Pattern](#active-active-pattern)
+- [Active-Passive Pattern](#active-passive-pattern)
+- [Failover Pattern](#failover-pattern)
+- [Replication Pattern](#replication-pattern)
+- [Sharding Pattern](#sharding-pattern)
+- [Load Balancing Pattern](#load-balancing-pattern)
 
-  - [Strong Consistency](#Strong-Consistency)
-  - [Eventual Consistency](#Eventual-Consistency)
-  - [Causal consistency ](#Causal-Consistency)
-  - [Weak consistency ](#Weak-Consistency)
+# CDN
+- [How CDNs Reduce Latency and Balance Network Loads](#how-cdns-reduce-latency-and-balance-network-loads)
+- [Pull CDN](#pull-cdn)
+- [Push CDN](#push-cdn)
 
-#
-[Availability Patterns](#Availability-Patterns)
-
- - [ Active-Active Pattern](#Active-Active-Pattern)
- - [Active-Passive Pattern](#Active-Passive-Pattern)
- - [Failover Pattern](#Failover-Pattern)
- - [Replication Pattern](#Replication-Pattern)
- - [Sharding Pattern](#Sharding-Pattern)
- - [Load Balancing Pattern](#Load-Balancing-Pattern)
-
-#
-
-[CDN ](#CDN )
- - [HOW CDNs reduce latency and balance network loads](#HOW-CDNs-reduce-latency-and-balance-network-loads)
- - [Pull CDN](#Pull-CDN)
- - [Push CDN ](#Push-CDN)
-
-# 
-[DNS ](#DNS )
-
- - [how it works](#how-it-works)
- - [Benefits of DNS](#Benefits-of-DNS)
-
-
-
-
+# DNS
+- [How It Works](#how-it-works)
+- [Benefits of DNS](#benefits-of-dns)
 
 #
 
