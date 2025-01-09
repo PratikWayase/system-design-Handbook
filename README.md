@@ -45,6 +45,12 @@
  - [Push CDN ](#Push-CDN)
 
 # 
+[DNS ](#DNS )
+[how it works](#how-it-works)
+[Benefits of DNS](#Benefits-of-DNS)
+
+
+
 
 
 #
