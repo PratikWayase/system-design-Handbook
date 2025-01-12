@@ -47,7 +47,7 @@
 ## CAP Theorem 
 (Consistency, Availability, Partition Tolerance)
 
-The CAP theorem states that a distributed database system can only guarantee two out of the following three properties at a given time:
+The CAP theorem states that a distributed database system can only guarantee two out of the following three properties at a given time
 
 - ##### Consistency (C)
 Every read receives the most recent write or an error, ensuring data uniformity across all nodes.
