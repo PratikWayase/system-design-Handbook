@@ -2,6 +2,7 @@
 
 #
 
+
 # CAP Theorem
 - [Key Insights on CAP Theorem](#key-insights-on-cap-theorem-in-databases)
 
