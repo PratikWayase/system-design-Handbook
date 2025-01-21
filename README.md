@@ -720,6 +720,12 @@ Imagine a busy airport.
 
 An Application Load Balancer (ALB) is a specialized type of load balancer operating at the application layer (Layer 7) of the OSI model. Unlike traditional load balancers that work at the transport layer (Layer 4), ALBs provide intelligent traffic management by evaluating the content of incoming requests and routing them based on application-layer information like HTTP headers, paths, cookies, and query strings. This makes ALBs particularly suitable for modern web applications, microservices, and container-based architectures.
 
+ **example**
+ 
+ - Imagine a busy airport with many airlines and flights.
+ - Passengers (Clients): Want to reach their destination (access an application).
+ - Gates (Servers): Where passengers board their flights (where applications run).
+
 
 #
 
