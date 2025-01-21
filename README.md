@@ -725,6 +725,12 @@ An Application Load Balancer (ALB) is a specialized type of load balancer operat
  - Imagine a busy airport with many airlines and flights.
  - Passengers (Clients): Want to reach their destination (access an application).
  - Gates (Servers): Where passengers board their flights (where applications run).
+   
+ - Airport Operations (Application Load Balancer):
+  - Doesn't just send you to any gate: Checks your flight number (host header), destination (path), and even your boarding pass details (cookies) to route you correctly.
+  - Handles security checks: Manages security screenings and baggage checks (SSL/TLS termination).
+  - Deals with special flights: Accommodates flights with unique needs, like those for groups or cargo (microservices).
+  - Monitors gate status: If a gate is delayed, they reroute passengers (health checks).
 
 
 #
