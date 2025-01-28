@@ -762,9 +762,13 @@ Direct Communication: The customer interacts directly with the server, and the s
  - Low latency: Ideal for situations where every millisecond counts, such as financial trading platforms.
  - example : streaming platofrm
 
-
-
 #
+
+## Load Balancing Algorithms
+
+**Static Load Balancing Algorithms:**
+
+Static load balancing algorithms distribute workloads based on predetermined rules, without adapting to real-time system variations. Tasks or resources are assigned to servers in a fixed manner, ensuring simplicity but lacking the flexibility to respond to dynamic changes in resource utilization or server availability.
 
 ## Client-Server Architecture
 
