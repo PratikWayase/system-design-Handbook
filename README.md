@@ -737,16 +737,16 @@ An Application Load Balancer (ALB) is a specialized type of load balancer operat
 
 # 
 
-Pass-Through Load Balancer
+### Pass-Through Load Balancer
 
 known as  load 4 balancer 
 distributes incoming traffic directly to backend servers without modifying them.
 
-example : 
+**example** : 
 
 Imagine you're at a busy restaurant. Instead of waiting for one waiter to take your order, serve your food, and bring back your payment, a host simply guides you to an available table where you interact directly with the server. That's essentially how a pass-through load balancer works.
 
-how it works 
+**how it works**
 
 Traffic Arrives: When a customer (your computer) wants to access a website or service (like a restaurant), their request (your order) goes to the load balancer (the host).
 
@@ -756,7 +756,7 @@ Direct Connection: The load balancer then smoothly connects the customer directl
 
 Direct Communication: The customer interacts directly with the server, and the server sends the response directly back to the customer, bypassing the load balancer.
 
-When to Use Pass-Through Load Balancers:
+**When to Use Pass-Through Load Balancers:**
 
  - High-speed needs: Perfect for services that require super-fast speeds, like streaming videos or online games.
  - Low latency: Ideal for situations where every millisecond counts, such as financial trading platforms.
