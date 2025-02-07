@@ -770,6 +770,17 @@ Direct Communication: The customer interacts directly with the server, and the s
 
 Static load balancing algorithms distribute workloads based on predetermined rules, without adapting to real-time system variations. Tasks or resources are assigned to servers in a fixed manner, ensuring simplicity but lacking the flexibility to respond to dynamic changes in resource utilization or server availability.
 
+Round Robin Load Balancing Algorithm
+The Round Robin algorithm is one of the most straightforward static load balancing techniques. Requests are distributed sequentially across servers in a circular fashion, ensuring each server is assigned a task in turn. While easy to implement, the algorithm does not account for server load, leading to potential imbalances when servers have unequal capacities or varying workloads.
+
+How It Works
+Requests are assigned to servers in a cyclic order.
+Once the last server is assigned, the next request is routed back to the first server.
+This process continues in a loop, distributing tasks evenly without considering individual server conditions.
+
+
+#
+
 ## Client-Server Architecture
 
 ### Client:
